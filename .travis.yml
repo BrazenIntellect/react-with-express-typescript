@@ -7,9 +7,8 @@ branches:
 before_install:
 - npm install -g typescript ts-node
 - npm run setup
-- npm run build
 script:
-- npm run start
+- npm run build
 deploy:
   provider: heroku
   api_key:
