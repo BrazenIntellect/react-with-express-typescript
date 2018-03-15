@@ -19,7 +19,7 @@
     "build": "tsc",
     "build-watch": "tsc --watch",
     "pretest": "npm run build",
-    "start": "ts-node/register ./src/index.ts"
+    "start": "node ./dist/index.js"
   },
   "repository": {
     "type": "git",
