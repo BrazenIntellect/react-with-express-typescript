@@ -5,10 +5,10 @@ branches:
   only:
   - master
 before_install:
-- npm install -g typescript
+- npm install -g typescript ts-node
 - npm run setup
 script:
-- npm run build
+- npm run start
 deploy:
   provider: heroku
   api_key:
